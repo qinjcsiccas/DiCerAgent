@@ -64,7 +64,7 @@ The browser opens automatically. Tabs:
 ---------------------------------------------------------------
 5. Data & Models
 ---------------------------------------------------------------
-- The bundled database is a 10% random sample (seed 42) of the original dataset for redistribution; CaWO4 is included as a complete case study with all properties, literature, vectors, and CIF files.
+- The data uploaded in this repository is incomplete: it contains only 10% of the full dataset (a random sample with seed 42) for redistribution; CaWO4 is included as a complete case study with all properties, literature, vectors, and CIF files.
 - If the large FAISS index is missing, the knowledge engine automatically falls back to the CSV-based retrieval channel.
 - external_models/ contains example model-to-plugin conversion cases (e.g. high-entropy ceramic thermal conductivity, oxide melting temperature).
 
@@ -75,6 +75,16 @@ The browser opens automatically. Tabs:
 - 401 / invalid key errors -> verify MP_API_KEY, DS_API_KEY, and HF_TOKEN.
 - IDO fails to load -> install mace, faiss, and pymatgen in the active environment.
 - Stale results or unexpected states -> click the "Clear Cache" button at the bottom of the page.
+
+---------------------------------------------------------------
+7. References
+---------------------------------------------------------------
+Qin, Jincheng, et al. DiCerAgent: AI-Driven Multi-Agent Research Platform for Dielectric Ceramics.
+
+---------------------------------------------------------------
+8. Ongoing Development
+---------------------------------------------------------------
+DiCerAgent is under continuous development, and its code, databases, and capabilities will be progressively updated and strengthened in future releases. The modular and plugin-based architecture, together with the central platform layer, provides an open framework for continuous expansion: new agents, models, databases, retrieval resources, and scientific tools can be incorporated without substantially changing the core orchestration logic. This extensibility enables DiCerAgent to accommodate additional capabilities as research needs evolve, supporting its expansion from microwave dielectric ceramics to broader functional ceramic systems, and from single-property prediction to multi-property and multi-objective tasks. Its capabilities can be further strengthened by expanding the coverage and quality of reliable data, improving the performance and robustness of underlying models, and integrating additional models and scientific tools. Future development will further connect computational and literature-based analysis with experimental validation, improving the reliability and practical utility of DiCerAgent for functional ceramic research.
 
 ---------------------------------------------------------------
 Contact: qinjccas@gmail.com
