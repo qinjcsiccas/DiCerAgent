@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Private / internal files (do not publish)
+\[不对外公开的文件\]/
+
+# Temp / logs
+temp/
+output/
+*.log
+
+# Large binary models distributed via GitHub Releases (not in repo)
+plugins/external/oxide_MeltTemp/two_stage_model.pkl
+plugins/external/HEC_ThermalConductivity/model.pkl
+model/ABO4_tcf.rds
+
+# OS
+Thumbs.db
+Desktop.ini

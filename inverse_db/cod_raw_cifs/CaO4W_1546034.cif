@@ -1,0 +1,91 @@
+#------------------------------------------------------------------------------
+#$Date: 2025-08-18 18:33:07 +0300 (Mon, 18 Aug 2025) $
+#$Revision: 301779 $
+#$URL: file:///home/coder/svn-repositories/_RELOADED_COD/cod-reloaded/cif/1/54/60/1546034.cif $
+#------------------------------------------------------------------------------
+#
+# This file is available in the Crystallography Open Database (COD),
+# http://www.crystallography.net/
+#
+# All data on this site have been placed in the public domain by the
+# contributors.
+#
+data_1546034
+loop_
+_publ_author_name
+'Rodr\'iguez-Hern\'andez, P.'
+'L\'opez-Solano, J.'
+'Radescu, S.'
+'Mujica, A.'
+'Mu\~noz, A.'
+'Errandonea, D.'
+'Pellicer-Porres, J.'
+'Segura, A.'
+'Ferrer-Roca, Ch.'
+'Manj\'on, F. J.'
+'Kumard, R. S.'
+'Tschaunerd,  O.'
+'Aquilantie, G.'
+_publ_section_title
+;
+ Theoretical and experimental study of CaWO~4~ and SrWO~4~ under pressure
+;
+_journal_issue                   9-10
+_journal_name_full               'Journal of Physics and Chemistry of Solids'
+_journal_page_first              2164
+_journal_page_last               2171
+_journal_paper_doi               10.1016/j.jpcs.2006.05.011
+_journal_volume                  67
+_journal_year                    2006
+_chemical_formula_sum            'Ca O4 W'
+_chemical_name_mineral           Scheelite
+_space_group_crystal_system      tetragonal
+_space_group_IT_number           88
+_space_group_name_Hall           '-I 4ad'
+_space_group_name_H-M_alt        'I 41/a :2'
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_formula_units_Z            4
+_cell_length_a                   5.205(5)
+_cell_length_b                   5.205(5)
+_cell_length_c                   11.275(7)
+_cell_measurement_pressure       1.4e6
+_diffrn_ambient_pressure         1.4e6
+_cod_struct_determination_method 'powder diffraction'
+_cod_database_code               1546034
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -y+3/4,x+1/4,z+1/4
+3 -x+1/2,-y,z+1/2
+4 y+3/4,-x+3/4,z+3/4
+5 -x,-y,-z
+6 y-3/4,-x-1/4,-z-1/4
+7 x-1/2,y,-z-1/2
+8 -y-3/4,x-3/4,-z-3/4
+9 x+1/2,y+1/2,z+1/2
+10 -y+1/4,x+3/4,z+3/4
+11 -x,-y+1/2,z+1
+12 y+1/4,-x+1/4,z+1/4
+13 -x+1/2,-y+1/2,-z+1/2
+14 y-1/4,-x+1/4,-z+1/4
+15 x,y+1/2,-z
+16 -y-1/4,x-1/4,-z-1/4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Ca Ca 4 b 0 0.25 0.625
+W W 4 a 0 0.25 0.125
+O O 16 f 0.2289(3) 0.0910(4) 0.0421(5)
+loop_
+_cod_related_entry_id
+_cod_related_entry_database
+_cod_related_entry_code
+1 PubChem 139050078
